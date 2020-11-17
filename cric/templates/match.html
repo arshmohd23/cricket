@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+
+<nav class="navbar navbar-dark bg-primary">
+
+    <span class="navbar-text" style="color: black;">
+        Decide your playing 11 here!!
+    </span>
+</nav>
+<form class="form" action="{% url 'manage' %}" method="POST">
+    {%csrf_token%}
+    <div class="team-box-container">
+        <div class="team-box">
+            {{form1|crispy}}
+        </div>
+        <div id="team2" class='team-box'>
+            {{form2|crispy}}
+        </div>
+    </div>
+
+
+
+
+    <div id="playing111">
+        <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">PLAYING 11</h3>
+    </div>
+    <div id="playing11">
+        <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">PLAYING 11</h3>
+    </div>
+    <div id="sub"><button type="submit" class="btn btn-success" style="width: 200px;">Continue</button></div>
+    </div>
+    </div>
+    <div id="line1">
+        <hr>
+    </div>
+    <h3 id="or">or</h3>
+    <div id="line2">
+        <hr>
+    </div>
+
+    <div id="canc">
+        <a href="\home"><button type="button" class="btn btn-danger" style="width: 200px;">Cancel</button></a>
+    </div>
+
+
+
+
+</form>
+{% endblock content %}

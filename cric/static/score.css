@@ -1,0 +1,145 @@
+body{
+    background-image: url("cricc.jpg");
+    background-size: cover;
+}
+.form #team2{
+    position: absolute;
+    left: 600px;
+    top: 112px;
+}
+
+.form p input,
+    .form p textarea {
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid slategrey;
+      outline: none;
+      box-shadow:red;
+     
+    }
+
+.form p label{
+  
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+.form #playing111{
+    position: relative;
+    left: 158px;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    background: tomato;
+    width: fit-content;
+    border-radius: 7px;
+
+    
+}
+.form  #playing11{
+    border-radius: 7px;
+    position: relative;
+    background-color: tomato;
+    box-shadow: white;
+    left: 755px;
+    width: fit-content;
+    bottom: 680;
+    border: 10px #b59816;
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+}
+#team2player{
+    position: relative;
+    left: 725;
+    bottom: 682;
+}
+.form #team1player{
+    position: relative;
+    left: 126px;
+}
+.verticals  {
+   
+    position: absolute;
+    right: 360px;
+    top:250px;
+    text-shadow: cornflowerblue;
+    
+
+}
+#start{
+   
+    margin-bottom: 2px;
+    border:1px cornsilk;
+    
+}
+
+
+#about{
+    margin-top: 2px;
+
+}
+.verticals a{
+
+    color:white;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+
+}
+.verticals a:hover{
+    text-decoration: none;
+    color: darkgray;
+
+}
+#canc{
+    position: relative;
+    left: 439px;
+    bottom: 600px;
+
+     }
+#sub{
+    position: relative;
+    left: 439px;
+    bottom:600px;
+}
+#line1{
+    width: 100;
+    background: grey;
+    height: 2px;
+    position: relative;
+    left: 420;
+    bottom: 582;
+}
+#line2{
+    width: 100;
+    background: grey;
+    height: 2px;
+    position: relative;
+    left: 560;
+    bottom: 633;
+
+}
+#or{
+    position: relative;
+    left: 527;
+    bottom: 600;
+    color: whitesmoke;
+}
+
+
+.team-box-container{
+    width:90%;
+    margin:auto;
+    padding:auto;
+}
+
+.team-box{
+    display: inline-block;
+    width:30%;
+    margin:auto;
+    padding:auto;
+}
